@@ -47,7 +47,7 @@ const Home = () => {
   return (
     <div className="box">
       <div className="home">
-        <h1>Welcome to CodingCalendar</h1>
+        <h1>Welcome to ContestCalendar</h1>
         <h3>
           Click on a platform in the navigation above to view the upcoming
           contests.
