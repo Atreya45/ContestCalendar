@@ -144,7 +144,7 @@ const Home = () => {
             </div>
           </div>
           <p className="footer-text">
-            &copy; {new Date().getFullYear()} CodingCalendar. All rights
+            &copy; {new Date().getFullYear()} ContestCalendar. All rights
             reserved.
           </p>
         </footer>
