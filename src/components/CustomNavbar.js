@@ -6,7 +6,7 @@ const CustomNavbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <p className="navbar-title">CodingCalendar</p>
+        <p className="navbar-title">ContestCalendar</p>
       </div>
       <div className="navbar-content">
         <Link className="navbar-item" to="/">
