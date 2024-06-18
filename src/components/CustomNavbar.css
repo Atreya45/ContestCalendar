@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+.navbar {
+  font-family: "Rubik";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  flex-wrap: wrap; /* Added for responsiveness */
+  text-decoration: bold;
+}
+
+.navbar-brand .navbar-title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-content {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap; /* Added for responsiveness */
+}
+
+.navbar-item {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar-item:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar-content {
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+  }
+  .navbar-item {
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-title {
+    font-size: 20px;
+  }
+  .navbar-item {
+    font-size: 14px;
+  }
+}
